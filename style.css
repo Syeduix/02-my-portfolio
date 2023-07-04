@@ -31,7 +31,7 @@ header nav a {
 }
 
 .hero-banner{
- background-image: url(/images/02-hero-bg.jpg);
+ background-image: url(./images/02-hero-bg.jpg);
  background-position: center;
 height: 200px;
 width: 100%;
@@ -61,6 +61,10 @@ position: relative;
 
 .work-card{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
 }
 .work-top{
   width: 100%;
@@ -70,9 +74,10 @@ position: relative;
 .work-top_inner{
   height: 360px;
   width: 100%700px;
-  background-image: url(/images/02-portfolio-1.jpg);
+  background-image: url(./images/02-portfolio-1.jpg);
   background-position: center;
   position: relative;
+  
  
 
 }
@@ -85,6 +90,20 @@ position: relative;
   margin-bottom: 16px;
   top: 280px;
 }
+
+.work-grid{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: ;
+}
+
+.work-small-a{
+  width: 48%;
+}
+
+
+
 h1,
 h2,
 h3,
