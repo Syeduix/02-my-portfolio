@@ -33,11 +33,17 @@ header nav a {
 .hero-banner{
  background-image: url(./images/02-hero-bg.jpg);
  background-position: center;
-height: 200px;
+height: 300px;
 width: 100%;
 align-items: center;
 padding: 0 5%;
 position: relative;
+}
+img{
+  position: relative;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-banner h2{
