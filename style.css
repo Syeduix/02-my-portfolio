@@ -66,6 +66,7 @@ position: relative;
   flex-wrap: nowrap;
   gap: 20px;
 }
+
 .work-top{
   width: 100%;
   border: 3px;
@@ -78,7 +79,7 @@ position: relative;
   background-position: center;
   position: relative;
   
- 
+
 
 }
 
@@ -94,13 +95,31 @@ position: relative;
 .work-grid{
   display: flex;
   width: 100%;
-  flex-direction: row;
-  align-items: ;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
 }
 
 .work-small-a{
-  width: 48%;
+  width: 49%;
+  background-image: url(./images/02-run-buddy.jpg);
 }
+.work-small-b{
+  width: 49%;
+  background-image: url(./images/02-portfolio-3.jpg);
+}
+
+.work-small-c{
+  width: 49%;
+  background-image: url(./images/02-portfolio-2.jpg);
+}
+
+.work-small-d{
+  width: 49%;
+  background-image: url(./images/02-portfolio-3.jpg);
+}
+
+
 
 
 
